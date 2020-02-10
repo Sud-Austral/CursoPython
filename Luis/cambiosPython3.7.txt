@@ -1,0 +1,12 @@
+Algunos cambios en la versión 3.7 de Python
+Como es normal en un curso de estas características, a veces la sintaxis de algunas funciones, librerías y métodos va cambiando. En esta clase se agruparán todos los cambios que vaya localizando (y si vosotros localizáis alguno que se me escapa, por favor escribidme y lo añadiré a la lista).
+
+Muchas gracias por adelantado
+
+Juan Gabriel Gomila
+
+La función sklearn.grid_search ha cambiado y ya no depende de ese paquete. Ahora debe cargarse con
+
+from sklearn.model_selection import GridSearchCV
+
+La función train_test_split ya no forma parte de sklearn.cross_validation, ahora debe cargarse desde el paquete sklearn.model_selection
