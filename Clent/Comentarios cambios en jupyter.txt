@@ -8,3 +8,6 @@ cualquiera de las siguientes dos opciones:
  	pip  install  jupyter_contrib_nbextensions
 
 	conda  install  - c  conda - forge  jupyter_contrib_nbextensions
+Luego se abre jupyter.
+clic para abrir nbextensions
+buscar la opcion de Hinterland y activar
