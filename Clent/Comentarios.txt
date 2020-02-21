@@ -1,1 +1,10 @@
 Escribir cualquier comentario para los compañeros
+
+Para que usar el asistente de auto completar de Jupyter se necesita instalar el 
+paquete de nbextensions.(para no usar el tabulador)
+
+cualquiera de las siguientes dos opciones:
+
+ 	pip  install  jupyter_contrib_nbextensions
+
+	conda  install  - c  conda - forge  jupyter_contrib_nbextensions
