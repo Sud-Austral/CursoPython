@@ -10,3 +10,6 @@ La función sklearn.grid_search ha cambiado y ya no depende de ese paquete. Ahor
 from sklearn.model_selection import GridSearchCV
 
 La función train_test_split ya no forma parte de sklearn.cross_validation, ahora debe cargarse desde el paquete sklearn.model_selection
+
+
+from sklearn.model_selection import train_test_split
